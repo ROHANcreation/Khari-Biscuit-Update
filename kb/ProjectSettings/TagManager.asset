@@ -8,6 +8,13 @@ TagManager:
   - Chockklet drops
   - health
   - coins
+  - dam1
+  - dam2
+  - dam3
+  - ground
+  - spawn
+  - sp
+  - fd
   layers:
   - Default
   - TransparentFX

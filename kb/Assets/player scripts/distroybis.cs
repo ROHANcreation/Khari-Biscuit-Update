@@ -11,8 +11,8 @@ public class distroybis : MonoBehaviour
        
             
             {
-                SceneManager.LoadScene("Level 01");
-            } 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        } 
         
         
     }

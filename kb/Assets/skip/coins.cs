@@ -7,7 +7,7 @@ public class ccoll: MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        sc.coinAmount += 1;
+        if(col.gameObject.tag=="Player")
         Destroy(gameObject);
     }
 }

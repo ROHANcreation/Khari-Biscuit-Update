@@ -265,6 +265,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &821105897
 Canvas:
   m_ObjectHideFlags: 0
@@ -432,16 +433,16 @@ RectTransform:
   m_GameObject: {fileID: 1155091570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.56839615, y: 0.6995645, z: 0.6995645}
   m_Children:
   - {fileID: 1707308785}
   m_Father: {fileID: 821105898}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 531.2, y: -296}
-  m_SizeDelta: {x: 197.26694, y: 41.8}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -92.1, y: 83.7}
+  m_SizeDelta: {x: 197.26694, y: 41.800003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1155091572
 MonoBehaviour:
@@ -469,6 +470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
