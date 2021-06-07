@@ -15,6 +15,7 @@ TagManager:
   - spawn
   - sp
   - fd
+  - bouncer
   layers:
   - Default
   - TransparentFX
